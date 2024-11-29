@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sitesi - Ana Sayfa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="#">Blog Sitesi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+                <li class="nav-item"><a class="nav-link" href="post.html">Blog Gönderisi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center bg-primary text-white">
+        <h1>Blog Sitesi</h1>
+        <p>En güncel blog gönderilerine göz atın!</p>
+    </div>
+
+    <!-- Blog Cards -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/kopek.png" class="card-img-top" alt="Köpek">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Gönderisi Başlığı</h5>
+                        <p class="card-text">Bu, blog gönderisi özetidir. Daha fazlasını okumak için başlığa tıklayın...</p>
+                        <a href="post.html" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/plaj.png" class="card-img-top" alt="Plaj">
+                    <div class="card-body">
+                        <h5 class="card-title">Başka Bir Blog Gönderisi</h5>
+                        <p class="card-text">Bu, başka bir blog gönderisi özetidir. Daha fazlasını okumak için başlığa tıklayın...</p>
+                        <a href="post.html" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/kafe.png" class="card-img-top" alt="Kafe">
+                    <div class="card-body">
+                        <h5 class="card-title">Bir Diğer Blog</h5>
+                        <p class="card-text">Bu, diğer blog gönderisinin özetidir. Daha fazlasını okumak için başlığa tıklayın...</p>
+                        <a href="post.html" class="btn btn-primary">Daha Fazla</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Blog Sitesi</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
