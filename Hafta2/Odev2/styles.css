@@ -1,0 +1,96 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #2f3e46;
+    color: #d8dee9;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d8dee9;
+}
+
+a {
+    text-decoration: none;
+    color: #d8dee9;
+}
+
+header {
+    background: #212f35;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .header-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+.intro {
+    background: #35454d;
+    padding: 4rem 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.intro .quote {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.bio-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem;
+    background: #3d5058;
+    border-radius: 5px;
+}
+
+.bio-content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.works {
+    background: #2f3e46;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.works ul {
+    list-style: none;
+    padding: 0;
+}
+
+.works ul li {
+    margin: 0.5rem 0;
+    color: #a3be8c;
+}
+
+footer {
+    background: #212f35;
+    color: #d8dee9;
+    text-align: center;
+    padding: 1rem 0;
+}
