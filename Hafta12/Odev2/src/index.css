@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+.starship-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.starship-card {
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
