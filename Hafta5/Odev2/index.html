@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drum Kit</h1>
+        <div class="drum-pad">
+            <button class="key" data-key="65">A</button>
+            <button class="key" data-key="83">S</button>
+            <button class="key" data-key="68">D</button>
+            <button class="key" data-key="70">F</button>
+            <button class="key" data-key="71">G</button>
+        </div>
+    </div>
+
+    <!-- Audio elements for the Drum Kit -->
+    <audio data-key="65" src="audio/kick.wav"></audio>
+    <audio data-key="83" src="audio/snare.wav"></audio>
+    <audio data-key="68" src="audio/hihat.wav"></audio>
+    <audio data-key="70" src="audio/tom.wav"></audio>
+    <audio data-key="71" src="audio/crash.wav"></audio>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
